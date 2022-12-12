@@ -14,7 +14,18 @@ friendly way so the students to have the full understanding and the advantages o
 
 
 ### Table of Contents  
-[1. Pseudocode](#headers)  
+[1. Pseudocode](#pseudo)  
 [2. Java](#emphasis)  
 
 
+### <a name="pseudo"> PseudoCode </a>
+
+#### What is PseudoCode 
+Pseudocode considered to be a simplified way to describe a solution for a problem without the need of writing code in full (So avoid techinal limitations of a programming language).
+
+The writing pseudocode leads to: 
+1. Critically thinking by breaking the problem into chunks (sub-problems)
+2. Easiness of undestanding the solution by others.
+3. Revealing a series of features that are going to be also included in the actual code. 
+
+The more complex a problem is, the most helpful is the usage of the pseudocode! 
