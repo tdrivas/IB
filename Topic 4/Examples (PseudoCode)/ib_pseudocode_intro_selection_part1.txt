@@ -1,0 +1,80 @@
+# The fundamentals of programming in pseudocode - Thanassis Drivas #
+
+**Programming simplifies people’s life. The automation both simple and complex procedure has increased the research, the productivity, and the free time of people. However, programming starts with problem solving. You will learn to solve problems by writing high level solution via pseudocode, without the technical details of a programming language. Through these problems, the goal is the students to learn the basic programming techniques, such as the use of constants, variables, operators, expressions, and Input and Output. Along the way, you learn the major steps that go into analysing a problem, designing a solution, and implementing it by creating an algorithm. Below you can find a series of solved problems to highlight the aforementioned goals.  
+
+#1 Write an algorithm that calculates the area of a square given that its side is 5
+side = 5
+area = side * side
+Output “Square’s Area:”, area
+
+#2 Write an algorithm that takes as Input the side of a square and calculates the area of it. 
+Input side
+area = side * side
+Output “Square’s Area:”, area
+
+#3 Write an algorithm that takes as Input three numbers and prints the average value
+Input a,b,c
+avg = (a+b+c) / 3
+Output avg
+
+#4 Given two points, the formula for computing the distance is  . Design an algorithm that takes as Input the coordinates of two points and Outputs their distance.
+Input x1,x2,y1,y2
+d = ((x2-x1)^2 + (y2-y1)^2) ^ (1/2)
+Output d
+
+
+#5 Write a program that reads in an investment amount, the annual interest rate, and the number of years, and displays the future investment value using the following formula
+futureInvestmentValue = investmentAmount * (1 + monthlyInterestRate) numberOfMonths
+
+Input investment, interestRate, years
+months = 12 * years
+futureInvestement = investment * (1 + interestRate) ^ months
+Output futureInvestement
+
+#6 Write a program that takes as Input the current number of seconds in a clock and prints the next seconds (Examples: Input 3 Output 4, Input 37 Output 38 Input 59 Output 0 etc)
+Input seconds
+nextSecond = (seconds + 1) mod 60
+output nextSecond
+
+#7 Write a program that takes as input two numbers and prints the one with the highest value
+Input x,y
+If x > y then 
+	Max = x
+Else
+	Max = y
+End if
+Output Max
+
+#8 An online shop makes 5% discount for every order above 120 euros. Write a program that takes as input the cost of an order and prints the updated cost if there is an discount
+Input cost
+If cost > 120 then
+	cost = cost – 0.05 * cost
+End if
+Output cost 
+
+#9 Write a program that plays the popular scissor-rock-paper game. (A scissor can cut a paper, a rock can knock a scissor, and a paper can wrap a rock.) The program accepts any of the numbers 0, 1, or 2 representing scissor, rock, and paper. The program prompts each user to enter a number 0, 1, or 2 and displays a message indicating which user won or the message draw. 
+Input name1, name2, choice1, choice2
+If (choice1 = 0 and choice2 = 2) or (choice1 = 1 and choice2 = 0) or (choice1 = 2 and choice2 = 0) then
+	Result = name1
+End if
+if choice1 = choice2 then
+Result = “Draw”
+End if
+If (choice2 = 0 and choice1 = 2) or (choice2 = 1 and choice1 = 0) or (choice2 = 2 and choice1 = 0) then
+	Result = name2
+End if
+Output Result
+
+#10 A toll system can recognise the type of a vehicle. Assume that cars pay 3 euros, while motor bikes pay 1.2 euros. Write a program that reads the type of a vehicle and the balance of a credit card. The program has to print the updated balance or the message “Insufficient Balance”
+Input type, balance
+If type = “car” then
+	Cost= 3
+Else
+	Cost  = 1.2
+End if
+If Cost > balance then
+	Output “Insufficient Balance”
+Else 
+	balance = balance - Cost
+	Output balance
+End if
